@@ -12,13 +12,14 @@ project "Practice"
       "main.cpp",
       "LeetCode/**.*", 
       "GeeksForGeeks/**.*", 
+      "StriverSDE/**.*", 
       "include/**.h"
    }
 
    includedirs {
     'include',
     'LeetCode',
-    'GeeksForGeeks'
+    'StriverSDE/**'
    }
 
    filter "configurations:Debug"
